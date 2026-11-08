@@ -1,0 +1,27 @@
+file,variable,description
+sessions.csv,session_id,Identifier or categorical field
+sessions.csv,participant_id,Identifier or categorical field
+sessions.csv,task_type,Identifier or categorical field
+sessions.csv,mental_demand,Single-item 1–7 integer mental task demand
+sessions.csv,temporal_demand,Single-item 1–7 integer time pressure
+sessions.csv,pre_valence,"Continuous pre-session valence, −1 to 1"
+sessions.csv,post_valence,"Continuous post-session valence, −1 to 1"
+sessions.csv,pre_arousal,"Continuous pre-session arousal, −1 to 1"
+sessions.csv,post_arousal,"Continuous post-session arousal, −1 to 1"
+sessions.csv,concentration_1,"Concentration questionnaire item 1, integer 1–7"
+sessions.csv,concentration_2,"Concentration questionnaire item 2, integer 1–7"
+sessions.csv,concentration_3,"Concentration questionnaire item 3, integer 1–7"
+sessions.csv,sense_of_time_1,"Altered-sense-of-time questionnaire item 1, integer 1–7"
+sessions.csv,sense_of_time_2,"Altered-sense-of-time questionnaire item 2, integer 1–7"
+sessions.csv,sense_of_time_3,"Altered-sense-of-time questionnaire item 3, integer 1–7"
+sessions.csv,performance,Single-item 1–7 integer rating of perceived music effect; 4 = neutral
+listening_history.csv,session_id,Identifier or categorical field
+listening_history.csv,track_id,Identifier or categorical field
+listening_history.csv,listened_seconds,Seconds actually listened to this track
+listening_history.csv,skipped,Whether playback was skipped
+music_metadata.csv,track_id,Identifier or categorical field
+music_metadata.csv,genre,Identifier or categorical field
+music_metadata.csv,vocal_status,"Vocal, Instrumental or Unknown label"
+music_metadata.csv,happiness,"Track-level predicted musical valence, 0 to 1"
+music_metadata.csv,energy,"Track-level predicted musical arousal, 0 to 1"
+music_metadata.csv,duration_seconds,Full track length in seconds
